@@ -1,0 +1,207 @@
+:root {
+  font-family: "Playfair",  !important;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #F4F4F4 !important;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================= */
+/* Neue Haas Display - Normal */
+/* ============================= */
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayXXThin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayXThin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayThin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayRoman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================= */
+/* Neue Haas Display - Italic */
+/* ============================= */
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayRomanItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url("./assets/fonts/NeueHaasDisplayBlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+button:focus, button:focus-visible {
+  outline: none !important;
+}
+body {
+  margin: 0;
+  
+
+
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+ .swiper-pagination {
+      position: absolute !important;
+      bottom: 20px !important;
+      left: -46px !important;
+      text-align: right !important;
+    }
+
+    .swiper-pagination-bullet {
+      width: 8px !important;
+      height: 8px !important;
+      background: #ffffff !important;
+      opacity: 0.4;
+      margin: 0 5px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: #ffffff !important;
+    }
+      @media screen and (max-width: 900px) {
+        .swiper-pagination {
+          left: 0 !important;
+          
+        }
+      }
