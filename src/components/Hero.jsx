@@ -102,9 +102,10 @@ const Hero = () => {
                   <Typography
                     sx={{
                       color: Colors.white,
-                      fontSize: { xs: "36px", md: "75px" },
+                      fontSize: { xs: "55px", md: "75px" },
                       fontWeight: 200,
                       lineHeight: 1.1,
+                      letterSpacing:0,
                       fontFamily: "Playfair",
                     }}
                   >

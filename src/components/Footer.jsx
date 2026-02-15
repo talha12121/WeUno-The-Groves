@@ -59,10 +59,10 @@ export default function Footer() {
                 color: Colors.white,
                 lineHeight: 1.1,
                 whiteSpace: "pre-line",
-                fontSize: { xs: "1.75rem", md: "45px" },
+                fontSize: { xs: "35px", md: "45px" },
               }}
             >
-              {"Join us for an unforgettable experience"}
+              Join us for an unforgettable experience
             </Typography>
           </Grid>
           <Grid
@@ -71,13 +71,14 @@ export default function Footer() {
               display: "flex",
               flexDirection: "column",
               justifyContent: { md: "flex-end", xs: "flex-start" },
-              alignItems: { md: "flex-end", xs: "flex-start" },
+              alignItems:  "flex-start" ,
+              width:"auto !important"
             }}
           >
             <Typography
               sx={{
                 fontWeight: 500,
-                fontSize: "12px",
+                fontSize: "11px",
                 letterSpacing: "2px",
                 maxWidth: 620,
                 fontFamily: "Inter",
@@ -300,15 +301,15 @@ export default function Footer() {
                 mt: { xs: 3, md: 0 },
               }}
             >
-              <Typography sx={{ color: Colors.textColor }}>
+              <Typography variant="body2" sx={{ color: Colors.textColor }}>
                 Terms & Conditions
               </Typography>
 
-              <Typography sx={{ color: Colors.textColor }}>
+              <Typography variant="body2" sx={{ color: Colors.textColor }}>
                 Privacy Policy
               </Typography>
 
-              <Typography sx={{ color: Colors.textColor }}>
+              <Typography variant="body2" sx={{ color: Colors.textColor }}>
                 © 2023 The Groves for Entertainment
               </Typography>
             </Box>

@@ -260,7 +260,7 @@ const MallSection = () => {
           <Typography
             sx={{
               fontWeight: 500,
-              fontSize: { xs: "28px", md: "40px" },
+              fontSize: "40px",
               maxWidth: 620,
               fontFamily: "Playfair, serif",
               color: Colors.white,
@@ -506,7 +506,7 @@ const MallSection = () => {
                   fontFamily: "Inter",
                   color: Colors.white,
                   lineHeight: 1.1,
-                  mb: 4,
+                  mb: {md:4,xs:2},
                   textTransform: "uppercase",
                 }}
               >
@@ -520,7 +520,7 @@ const MallSection = () => {
                   fontFamily: "Playfair, serif",
                   color: Colors.white,
                   lineHeight: 1.1,
-                  mb: 4,
+                  mb: {md:4,xs:2},
                 }}
               >
                 Find your place
