@@ -293,7 +293,7 @@ const MallSection = () => {
           sx={{
             fontWeight: 200,
             textAlign: { md: "center", sm: "center", xs: "left" },
-            fontSize: { md: "52px", sm: "52px", xs: "40px" },
+            fontSize: { md: "52px", sm: "52px", xs: "44px" },
             lineHeight: 1,
 
             mb: 2,
@@ -442,12 +442,12 @@ const MallSection = () => {
         }}
       >
         <Grid container spacing={4} alignItems="center">
-          <Grid size={{ xs: 12, md: 3 }}>
+          <Grid size={{ xs:8, md: 3 }}>
             <Box>
               <Typography
                 sx={{
                   fontWeight: 500,
-                  fontSize: { xs: "28px", md: "40px" },
+                  fontSize: "40px",
                   maxWidth: 620,
                   fontFamily: "Playfair, serif",
                   color: Colors.white,
