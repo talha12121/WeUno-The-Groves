@@ -459,7 +459,7 @@ const MallSection = () => {
               </Typography>
 
               <PrimaryButton
-                text="Book Tickets"
+                text="Book General Access Ticket"
                 icon={<EastIcon sx={{ fontSize: "20px" }} />}
               />
             </Box>
