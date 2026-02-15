@@ -442,7 +442,7 @@ const MallSection = () => {
         }}
       >
         <Grid container spacing={4} alignItems="center">
-          <Grid size={{ xs:8, md: 3 }}>
+          <Grid size={{ xs:10, md: 3 }}>
             <Box>
               <Typography
                 sx={{
